@@ -9,3 +9,8 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 
 .policy-page .site-header nav a:first-child{display:inline-block}
+
+/* Approved CRB Studio identity; dimensions reserve space before the PNG loads. */
+.studio .studio-logo{width:192px;height:96px;object-fit:contain}
+.site-footer .studio .studio-logo{width:160px;height:80px}
+@media(max-width:760px){.studio .studio-logo{width:132px;height:66px}.site-footer .studio .studio-logo{width:144px;height:72px}}
